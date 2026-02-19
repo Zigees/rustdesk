@@ -4,7 +4,7 @@ version = "1.4.5"
 authors = ["ZIGEES mixa.2001.14m@gmail.com"]
 edition = "2021"
 build= "build.rs"
-description = "RstoIT Remote Desktop"
+description = "RestoIT Remote Desktop"
 default-run = "RestoIT_Desktop"
 rust-version = "1.75"
 
@@ -27,7 +27,7 @@ use_samplerate = ["samplerate"]
 use_rubato = ["rubato"]
 use_dasp = ["dasp"]
 flutter = ["flutter_rust_bridge"]
-default = ["use_dasp", "inline"]
+default = ["use_dasp"]
 hwcodec = ["scrap/hwcodec"]
 vram = ["scrap/vram"]
 mediacodec = ["scrap/mediacodec"]
