@@ -1,11 +1,11 @@
 [package]
-name = "rustdesk"
+name = "RestoIT Desktop"
 version = "1.4.5"
-authors = ["rustdesk <info@rustdesk.com>"]
-edition = "2021"
+authors = ["ZIGEES mixa.2001.14m@gmail.com"]
+edition = "2026"
 build= "build.rs"
-description = "RustDesk Remote Desktop"
-default-run = "rustdesk"
+description = "RstoIT Remote Desktop"
+default-run = "RestoIT Desktop"
 rust-version = "1.75"
 
 [lib]
@@ -27,7 +27,7 @@ use_samplerate = ["samplerate"]
 use_rubato = ["rubato"]
 use_dasp = ["dasp"]
 flutter = ["flutter_rust_bridge"]
-default = ["use_dasp"]
+default = ["use_dasp", "inline"]
 hwcodec = ["scrap/hwcodec"]
 vram = ["scrap/vram"]
 mediacodec = ["scrap/mediacodec"]
@@ -232,7 +232,7 @@ hound = "3.5"
 docopt = "1.1"
 
 [package.metadata.bundle]
-name = "RustDesk"
+name = "RestoIT Desktop"
 identifier = "com.carriez.rustdesk"
 icon = ["res/32x32.png", "res/128x128.png", "res/128x128@2x.png"]
 osx_minimum_system_version = "10.14"
