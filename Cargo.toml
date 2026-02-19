@@ -5,7 +5,7 @@ authors = ["ZIGEES mixa.2001.14m@gmail.com"]
 edition = "2021"
 build= "build.rs"
 description = "RstoIT Remote Desktop"
-default-run = "RestoIT Desktop"
+default-run = "RestoIT_Desktop"
 rust-version = "1.75"
 
 [lib]
